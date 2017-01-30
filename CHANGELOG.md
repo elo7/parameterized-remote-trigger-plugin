@@ -1,3 +1,11 @@
+#2.2.3 (Jan 23th, 2017)
+###New Feature/Enhancement:
+- Adds CRSF support via Crumbs ([pull request](https://github.com/jenkinsci/parameterized-remote-trigger-plugin/pull/22))
+
+###Bug fixes:
+- Fixes API calls to jobs regarding whether they are parameterized or not ([pull request](https://github.com/jenkinsci/parameterized-remote-trigger-plugin/pull/28))
+- Fixes remote job status checking after it is triggered ([pull request](https://github.com/jenkinsci/parameterized-remote-trigger-plugin/pull/28))
+
 #2.2.2 (Aug 16th, 2015)
 ### Misc:
 - require Jenkins 1.580+
@@ -8,7 +16,7 @@
 
 #2.2.0 (May 12th, 2015)
 ###New Feature/Enhancement:
-- Ability to debug connection errors with (optional) enhanced console output ([pull request](https://github.com/jenkinsci/parameterized-remote-trigger-plugin/pull/9)) 
+- Ability to debug connection errors with (optional) enhanced console output ([pull request](https://github.com/jenkinsci/parameterized-remote-trigger-plugin/pull/9))
 
 ###Bug fixes:
 - fixing [JENKINS-23748](https://issues.jenkins-ci.org/browse/JENKINS-23748) - Better error handleing for console output and logs to display info about the failure ([pull request](https://github.com/jenkinsci/parameterized-remote-trigger-plugin/pull/10))
@@ -39,7 +47,7 @@
 - optionally block the local build until remote build is complete ([request ticket](https://issues.jenkins-ci.org/browse/JENKINS-20828))
 
 ###Misc:
-- the console output has also been cleansed of displaying any URLs, since this could pose a security risk for public CI environemnts. 
+- the console output has also been cleansed of displaying any URLs, since this could pose a security risk for public CI environemnts.
 - special thanks to [@tombrown5](https://github.com/timbrown5) for his contributions to the last item mentioned above
 
 
@@ -61,17 +69,17 @@ Special thanks to [@elksson](https://github.com/elksson) for his contributions t
 
 ###Bug fixes:
 - closing potential security gap for public-read environments
-    
-    
+
+
 ###New Feature/Enhancement:
 - ability to not mark the build as failed if the remote build fails
-    
-    
+
+
 ###Misc:
 - General code clean-up
 
 
-#1.0 
+#1.0
 Initial release
 
 ###Available features:
